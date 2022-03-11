@@ -1,0 +1,10 @@
+note over selain:
+selain suorittaa tapahtumankäsittelijän
+joka luo uuden muistiinpanon, lisää sen
+(paikalliselle) muistiinpanojen listalle,
+renderöi muistiinpanot näytölle, ja
+lähettää uuden muistiinpanon palvelimelle
+end note
+
+selain->palvelin: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+palvelin-->selain: 201 [{"message":"note created"}]
