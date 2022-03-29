@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImhlbGxhcyIsImlkIjoiNjI0MzI1NDU3ODYzZWY2ZTkzMjA2NWFjIiwiaWF0IjoxNjQ4NTc0NDA0fQ.3rcid-v8zWEZ72MboHK3WrloqyLcv5MBg7UiUSxmn7I
+
+{
+    "title": "Interesting stuff3",
+    "author": "Authorer",
+    "url": "https://interestingstuff.com",
+    "likes": 2
+}
